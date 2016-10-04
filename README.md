@@ -6,13 +6,21 @@
 
 ###Using the HelloWorld module
 
-`HelloWorld.sayHello()`
+```scala
+scala HelloWorld.sayHello()
+```
 
-`HelloWorld.sayHello("Spark")`
+````scala
+HelloWorld.sayHello("Spark")
+```
 
-`HelloWorld.sayHello(Array("BigData", "Simple"))`
+```scala
+HelloWorld.sayHello(Array("BigData", "Simple"))
+```
 
-You can also pass `Array[String]` as arguments to Main()
+You can also pass ```scala
+Array[String]
+``` as arguments to ```scala Main()```
 
 
 You can clone the repo and build a jar. Alternatively, the jar file is already uploaded under `lib` folder for your convenience.
