@@ -7,7 +7,7 @@
 ###Using the HelloWorld module
 
 ```scala
-scala HelloWorld.sayHello()
+HelloWorld.sayHello()
 ```
 
 ````scala
@@ -18,9 +18,7 @@ HelloWorld.sayHello("Spark")
 HelloWorld.sayHello(Array("BigData", "Simple"))
 ```
 
-You can also pass ```scala
-Array[String]
-``` as arguments to ```scala Main()```
+You can also pass ```Array[String]` as arguments to ```scala Main()```
 
 
 You can clone the repo and build a jar. Alternatively, the jar file is already uploaded under `lib` folder for your convenience.
