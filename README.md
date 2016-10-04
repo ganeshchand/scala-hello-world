@@ -6,7 +6,7 @@
 
 ###Using the HelloWorld module
 
-```scala
+```
 HelloWorld.sayHello()
 ```
 
